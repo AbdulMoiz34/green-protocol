@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 75%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 3vw;
+}
+
+/* Header styling */
+.headerBox {
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.headerBoxContent {
+    font-family: sans-serif;
+    background-color: #008D38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8vw 9vw;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.3vw;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.7vw;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+/* END */
+
+/* intro-section styling */
+.imageContainer,
+.introSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introSection {
+    width: 100%;
+    flex-direction: column;
+    height: 85vh;
+    gap: 4.8vw;
+    background-color: #00AE47;
+}
+
+.introSectionHeading {
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    color: #fff;
+}
+
+
+.imageContainer .images {
+    border-radius: 50%;
+    width: 13.8vw;
+    box-shadow: 0 0 10px #008D38;
+}
+
+img.dashes {
+    width: 100px;
+    margin: 0 20px;
+}
+
+/* END */
+
+/* problem-section styling */
+.problemSection {
+    width: 75%;
+    margin-top: 10.5vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.problemHeading,
+.primaryHeading {
+    color: #00AE47;
+    font-size: 4vw;
+    border-bottom: .5vw solid #84D1A6;
+    padding: 0 0 10px 0;
+}
+
+.problemContent {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2vw;
+}
+
+.problemPara {
+    margin-top: 1vw;
+    font-weight: 500;
+    line-height: 3.5vw;
+    width: 65%;
+    font-size: 2.3vw;
+}
+
+.problemHome {
+    width: 20vw;
+}
+
+/* END */
+
+/* solution-section styling */
+.solutionSection {
+    margin-top: 10em;
+}
+
+.solutionsRow {
+    display: flex;
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+    flex-wrap: wrap;
+}
+
+.solutionBoxes {
+    width: 25%;
+    height: 25vw;
+    background-color: #00BF54;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solutionAssets {
+    width: 10vw;
+}
+
+.solutionBoxesPara {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.solutionsRow>div:is(:nth-child(1), :nth-child(3), :nth-child(6), :nth-child(8)) {
+    background-color: #009F32;
+}
+
+.bigImages {
+    border: .4vw solid #009F32;
+    position: relative;
+    display: flex;
+    margin: 6vw 0 0 0;
+    width: 94%;
+}
+
+.bigImage {
+    width: 49.5%;
+    height: 49.5%;
+    object-fit: cover;
+    margin: .25%;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.bigImage:hover {
+    filter: grayscale(100%);
+}
+
+.bigImageTag1,
+.bigImageTag2 {
+    color: #fff;
+    padding: 1vw 2vw;
+    background-color: #00AE47;
+    font-size: 1.1vw;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.bigImageTag1 {
+    position: absolute;
+    left: -3.5%;
+    top: 10%;
+    color: #fff;
+    background-color: #00AE47;
+}
+
+.bigImageTag2 {
+    position: absolute;
+    right: -3.5%;
+    bottom: 10.5%;
+}
+
+/* End */
+
+/* businessModelSection */
+.businessSubHeading {
+    margin: 3.5vw 0 2vw 0;
+    color: #00BF54;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.businessModelContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2vw;
+}
+
+.businessModelBoxes {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.businessModelBoxes img {
+    width: 15vw;
+    height: 15vw;
+}
+
+.businessModelBoxes p {
+    font-size: 1.4vw;
+    color: #00AE47;
+    text-align: center;
+}
+
+.businessModelBoxes h3 {
+    color: #00AE47;
+    font-size: 1.3vw;
+}
+
+.businessModelContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw 1vw;
+}
+
+/* End */
