@@ -7,6 +7,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -106,6 +107,7 @@ img.dashes {
     font-size: 4vw;
     border-bottom: .5vw solid #84D1A6;
     padding: 0 0 10px 0;
+    width: 100%;
 }
 
 .problemContent {
@@ -216,6 +218,10 @@ img.dashes {
 /* End */
 
 /* businessModelSection */
+.businessModelSection {
+    margin-top: 10em;
+}
+
 .businessSubHeading {
     margin: 3.5vw 0 2vw 0;
     color: #00BF54;
@@ -260,6 +266,145 @@ img.dashes {
     flex-wrap: wrap;
     justify-content: center;
     gap: 5vw 1vw;
+}
+
+/* End */
+
+
+/* exampleSection */
+.exampleSection {
+    margin-bottom: 10em;
+}
+
+.exampleBox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exampleImg1 {
+    width: 25vw;
+}
+
+.exampleLeafImg {
+    width: 10vw;
+}
+
+.exampleArrow {
+    width: 7vw;
+}
+
+.exampleText {
+    font-size: 1.2vw;
+    text-align: center;
+    color: #009F32;
+    font-weight: 500;
+}
+
+.exampleBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exampleArrowBox2 {
+    width: 16.5vw;
+    align-self: flex-start;
+}
+
+.exampleImg2 {
+    width: 13vw;
+    position: relative;
+    top: 2.5vw;
+}
+
+/* advantages-section */
+.advantagesSection {
+    display: flex;
+    margin-bottom: 7vw;
+}
+
+.advantageBox {
+    width: 50%;
+    height: 27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vw;
+}
+
+.advantageBox p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+}
+
+.imgInsideAdvantageBox {
+    width: 7vw;
+}
+
+.advantageBox1 {
+    background-color: #DCDCDC;
+    color: #00AE47;
+}
+
+.advantageBox2 {
+    background-color: #00AE47;
+}
+
+.advantageBox1Text {}
+
+.advantageBox2Text {
+    color: #efefef;
+}
+
+/* End */
+
+/* Profit-section */
+.profitSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.profitRow {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+.profitBoxes {
+    width: 24vw;
+    height: 29vw;
+    background-color: #009F32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.profitRow>div:nth-child(2) {
+    background-color: #00BF54;
+}
+
+.profitSectionImages {
+    width: 10vw;
+}
+
+.profitInPercent {
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.profitHeading {
+    font-weight: 600;
+    margin: 1vw 0;
+    font-size: 1.7vw;
 }
 
 /* End */
