@@ -591,4 +591,10 @@ img.dashes {
         font-size: 2.5vw;
         line-height: 3vw;
     }
+    .solutionsRow .solutionBoxes:nth-child(odd) {
+        background-color: #009F32;
+    }
+    .solutionsRow .solutionBoxes:nth-child(even) {
+        background-color: #00BF54;
+    }
 }
