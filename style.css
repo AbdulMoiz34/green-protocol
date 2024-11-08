@@ -56,6 +56,12 @@ section {
     font-size: 1.5vw;
 }
 
+.nav-icon {
+    color: #fff;
+    display: none !important;
+    font-size: 3.2vw;
+}
+
 /* END */
 
 /* intro-section styling */
@@ -72,6 +78,7 @@ section {
     height: 85vh;
     gap: 4.8vw;
     background-color: #00AE47;
+    margin: 0 !important;
 }
 
 .introSectionHeading {
@@ -408,3 +415,180 @@ img.dashes {
 }
 
 /* End */
+
+
+/* Responsive styling */
+
+@media (max-width: 600px) {
+
+    /* Header */
+    .nav-icon {
+        display: block !important;
+    }
+
+    nav.nav-menu {
+        display: none;
+    }
+
+    .headerBoxContent {
+        padding: 4vw 9vw;
+    }
+
+    .logo {
+        font-size: 4.5vw;
+    }
+
+    /* intro-section */
+    .introSection {
+        height: 55vh;
+    }
+
+    .introSectionHeading {
+        font-size: 8vw;
+    }
+
+    img.dashes {
+        width: 45px;
+        margin: 0 10px;
+    }
+
+    .imageContainer .images {
+        width: 18%;
+    }
+
+    /* End */
+
+    /* solution-section */
+    .primaryHeading,
+    .problemHeading {
+        font-size: 6vw;
+    }
+
+    .problemContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .problemPara {
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+
+    img.problemHome {
+        width: 30vw;
+        margin-top: 2.8vw;
+    }
+
+    .solutionsRow {
+        flex-direction: column;
+    }
+
+    .solutionBoxes {
+        width: 100%;
+        height: 55vw;
+    }
+
+    .solutionAssets {
+        width: 25vw;
+    }
+
+    .solutionBoxesPara {
+        font-size: 3.5vw;
+    }
+
+    .bigImages {
+        width: 100%;
+    }
+
+    section {
+        margin-top: 2.5em !important;
+        width: 90%;
+    }
+
+    .bigImageTag1,
+    .bigImageTag2 {
+        padding: 2vw 3vw;
+        font-size: 2vw;
+    }
+
+    .bigImage {
+        height: 55%;
+    }
+
+
+    /* Business-model section */
+    .businessSubHeading {
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+
+    .businessModelBoxes img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .businessModelBoxes p {
+        font-size: 2.4vw;
+    }
+
+    .exampleSection {}
+
+    /* profit-section */
+    .profitRow {
+        flex-direction: column;
+    }
+
+    .profitBoxes {
+        width: 100%;
+    }
+
+    .profitHeading {
+        font-size: 2.5vw;
+    }
+
+    .exampleSection {
+        margin-bottom: 0em;
+    }
+
+    section.profitSection {
+        margin-bottom: 0em;
+    }
+
+    /* End */
+    /* ProfitBoxes */
+    .profitBoxes {
+        height: 50vw;
+    }
+
+    .profitSectionImages {
+        width: 15vw;
+    }
+
+    .profitHeading {
+        font-size: 3.5vw;
+    }
+
+    .profitInPercent {
+        font-size: 4vw;
+    }
+
+    /* advantages section */
+    .advantageBox1,
+    .advantageBox2 {
+        height: 35vw;
+    }
+
+    .advantageBox {
+        gap: 2.5vw;
+    }
+
+    .imgInsideAdvantageBox {
+        width: 10vw;
+    }
+
+    .advantagesSection p {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+}
